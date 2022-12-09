@@ -1,4 +1,4 @@
-package com.example.anotationspring;
+package com.example.anotationspring.Lession1;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
