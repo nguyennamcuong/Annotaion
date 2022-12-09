@@ -1,9 +1,11 @@
 package com.example.anotationspring;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+@Qualifier("cuong")
 @Scope("prototype")
 public class Vest implements Outfit{
     @Override
