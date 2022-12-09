@@ -15,6 +15,13 @@ public class AnotationSpringApplication {
         System.out.println("Instance: " +outfit);
         outfit.wear();
 
+        Man man = context.getBean(Man.class);
+
+        System.out.println("Man Instance: " + man);
+
+        System.out.println("Man Outfit: " + man.outfit);
+
+        man.outfit.wear();
 
     }
 
